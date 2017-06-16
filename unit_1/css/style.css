@@ -2,5 +2,7 @@ body {
 	background-color: #DCDCDC;
 }
 h1, p {
-	color: #6A5ACD;
+	color: #black;
+	font-weight: 800;
+	font-size: 20px;
 }
