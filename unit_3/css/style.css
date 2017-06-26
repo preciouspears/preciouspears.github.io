@@ -19,6 +19,7 @@ header {
 	}
 ul{
 	margin-left:20px;
+	list-style:none;
 }
 
 ul a:hover {
@@ -65,11 +66,24 @@ img {
 main {
 	padding: 20px;
 	line-height: 1.5;
+	text-align:center;
+}
+
+section {
+	text-align: center;
+	margin-left:200px;
+	margin-right:200px;
+	margin-top: 40px;
 }
 
 footer {
 	line-height: 1.5;
 	padding:20px;
 	background-color: #e6e6e6;
+}
+
+footer a {
+	color:#6495ED;
+	margin-right: 20px;
 }
 
