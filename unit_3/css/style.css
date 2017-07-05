@@ -1,42 +1,42 @@
 * {margin:0;padding:0;box-sizing:border-box;}
-body{
-	font-family: Verdana, sans-serif;
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Taviraj');
+
+body {
+	font-family: 'Montserrat', sans-serif;
 	font-size: 20px;
 	color:#808080;
+	padding: 10px;
+}
+	
 }
 header {
-		padding:10px;
 		border-bottom: 2px solid #A9A9A9;
 		color: #6495ED;
 		width: 100%;
 		height: 100px;
-		/* position: fixed; */
 		background-color: #FFFFFF;
 		top: 0;
 	}
-ul{
-	margin-left:20px;
-	list-style:none;
-}
-
-ul a:hover {
-	border-bottom:3px solid;
-	border-bottom-color: #0da65e;
-}
 
 h1 {
 	padding:10px;
+	font-family: 'Taviraj', serif;
+	letter-spacing: 5px;
+	font-size: 40px;
 }
 
 h2	{ 
-	color: #6495ED 
+	color: #6495ED;
+	font-family: 'Taviraj', serif;
 }
 
 header p {
 	color: #0da65e;
-	text-transform: uppercase;
 	font-size: 11pt;
 	font-weight: 700;
+	font-family: 'Taviraj', serif;
+	padding-top:10px;
+	padding-bottom: 10px;
 }
 
 a {
@@ -51,22 +51,19 @@ nav a:hover {
 
 nav a {
 	margin-right: 20px;
-	margin-left: 10px;
 }
 
-img {
-	width: 100%;
+div a {
+	margin-right: 20px;
 }
 
 main {
-	padding: 20px;
 	line-height: 1.5;
 	text-align:center;
 }
 
-section {
-	text-align: center;
-	padding: 4em 0;
+img {
+	width:15%;
 }
 
 footer {
@@ -79,9 +76,61 @@ footer a {
 	color:#6495ED;
 	margin-right: 20px;
 }
+
+#logo {
+	font-family: 'Taviraj', serif;
+	font-size: 40px;
+	text-align: left;
+	padding-bottom: 10px;
+}
+
 #intro {
-	background:url(../images/Henrylookingup.jpg);
+	background:url(../images/Henryplaying.jpg);
+	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
-	height: 80vh;
+	height: 140vh;
+	color:white;
 }
+
+#newborn {
+	background:url(../images/newborn.jpg);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 40vh;
+	color:white;
+}
+#baby {
+	background:url(../images/babysweater.jpg);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 40vh;
+	color:white;
+}
+#swim {
+	background:url(../images/HenrySwim.jpg);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 40vh;
+	color:white;
+}
+#sleep {
+	background:url(../images/sleepsack.jpg);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 40vh;
+	color:white;
+}
+#summer {
+	background-image: url(../images/HenryBeach.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 40vh;
+	background-position: center;
+	word-spacing: 5px;
+}
+
