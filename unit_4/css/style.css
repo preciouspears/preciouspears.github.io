@@ -30,6 +30,13 @@ h2	{
 	font-family: 'Taviraj', serif;
 }
 
+h3 {
+	font-family: 'Taviraj', serif;
+	font-size: 30px;
+	color: black;
+
+}
+
 header p {
 	color: #0da65e;
 	font-size: 11pt;
@@ -93,6 +100,7 @@ footer a {
 	color:white;
 }
 
+
 #newborn {
 	background:url(../images/newborn.jpg);
 	background-size: contain;
@@ -100,7 +108,9 @@ footer a {
 	background-repeat: no-repeat;
 	height: 40vh;
 	color:white;
+	padding: 20px;
 }
+
 #baby {
 	background:url(../images/babysweater.jpg);
 	background-size: contain;
