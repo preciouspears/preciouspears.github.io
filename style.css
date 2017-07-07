@@ -1,0 +1,145 @@
+* {margin:0;padding:0;box-sizing:border-box;}
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Taviraj');
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	color:#808080;
+	padding: 10px;
+}
+	
+}
+header {
+		border-bottom: 2px solid #A9A9A9;
+		color: #6495ED;
+		width: 100%;
+		height: 100px;
+		background-color: #FFFFFF;
+		top: 0;
+	}
+
+h1 {
+	padding:10px;
+	font-family: 'Taviraj', serif;
+	letter-spacing: 5px;
+	font-size: 40px;
+}
+
+h2	{ 
+	color: #6495ED;
+	font-family: 'Taviraj', serif;
+}
+
+h3 {
+	font-family: 'Taviraj', serif;
+	font-size: 30px;
+	color: black;
+
+}
+
+header p {
+	color: #0da65e;
+	font-size: 11pt;
+	font-weight: 700;
+	font-family: 'Taviraj', serif;
+	padding-top:10px;
+	padding-bottom: 10px;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+nav a:hover {
+	border-bottom:3px solid;
+	border-bottom-color: #0da65e;
+}
+
+nav a {
+	margin-right: 20px;
+}
+
+div a {
+	margin-right: 20px;
+}
+
+main {
+	line-height: 1.5;
+	text-align:center;
+}
+
+img {
+	width:15%;
+}
+
+footer {
+	line-height: 1.5;
+	padding:20px;
+	background-color: #e6e6e6;
+}
+
+footer a {
+	color:#6495ED;
+	margin-right: 20px;
+}
+
+#logo {
+	font-family: 'Taviraj', serif;
+	font-size: 40px;
+	text-align: left;
+	padding-bottom: 10px;
+}
+
+#intro {
+	background:url(../images/Henryplaying.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 140vh;
+	color:white;
+}
+
+
+#newborn {
+	background:url(../images/newborn.jpg);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 40vh;
+	color:white;
+}
+
+#baby {
+	background:url(../images/babysweater.jpg);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 40vh;
+	color:white;
+}
+#swim {
+	background:url(../images/HenrySwim.jpg);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 40vh;
+	color:white;
+}
+#sleep {
+	background:url(../images/sleepsack.jpg);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 40vh;
+	color:white;
+}
+#summer {
+	background-image: url(../images/HenryBeach.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 40vh;
+	background-position: center;
+	word-spacing: 5px;
+}
+
