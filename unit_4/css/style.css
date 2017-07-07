@@ -33,8 +33,13 @@ h2	{
 h3 {
 	font-family: 'Taviraj', serif;
 	font-size: 30px;
-	color: black;
+	color:red;
+}
 
+h3 a {
+	border-bottom:3px solid;
+	margin: 20px;
+	padding:5px;
 }
 
 header p {
