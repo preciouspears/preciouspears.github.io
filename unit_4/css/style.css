@@ -104,6 +104,7 @@ footer a {
 	background-repeat: no-repeat;
 	height: 140vh;
 	color:white;
+	background-color: #c5e8ed;
 }
 
 
@@ -114,6 +115,7 @@ footer a {
 	background-repeat: no-repeat;
 	height: 40vh;
 	color:white;
+	background-color: #c5e8ed;
 }
 
 #baby {
@@ -123,6 +125,7 @@ footer a {
 	background-repeat: no-repeat;
 	height: 40vh;
 	color:white;
+	background-color: #c5e8ed;
 }
 #swim {
 	background:url(../images/HenrySwim.jpg);
@@ -131,6 +134,7 @@ footer a {
 	background-repeat: no-repeat;
 	height: 40vh;
 	color:white;
+	background-color: #c5e8ed;
 }
 #sleep {
 	background:url(../images/sleepsack.jpg);
@@ -139,6 +143,7 @@ footer a {
 	background-repeat: no-repeat;
 	height: 40vh;
 	color:white;
+	background-color: #c5e8ed;
 }
 #summer {
 	background-image: url(../images/HenryBeach.jpg);
@@ -147,5 +152,6 @@ footer a {
 	height: 40vh;
 	background-position: center;
 	word-spacing: 5px;
+	background-color: #ffff80;
 }
 
