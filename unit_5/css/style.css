@@ -106,7 +106,9 @@ footer a {
 	color:white;
 	background-color: #c5e8ed;
 }
-
+#newborn, #baby, #swim, #sleep {
+	display: inline-block;
+}
 
 #newborn {
 	background:url(../images/newborn.jpg);
