@@ -33,14 +33,14 @@ h2	{
 h3 {
 	font-family: 'Taviraj', serif;
 	font-size: 30px;
-	color:red;
+	color: white;
+	background-color: #ccc;
+	width: 150px;
+	margin: 20px;
 }
 
-h3 a {
-	border-bottom:3px solid;
-	margin: 20px;
-	padding:5px;
-	color: red;
+h3 a:hover {
+	opacity: 0.7;
 }
 
 header p {
@@ -106,47 +106,22 @@ footer a {
 	color:white;
 	background-color: #c5e8ed;
 }
-#newborn, #baby, #swim, #sleep {
-	display: inline-block;
+
+#fashions h2 {
+	font-family: 'Taviraj', serif;
+	font-size: 40px;
+	font-weight: lighter;
 }
 
-#newborn {
-	background:url(../images/newborn.jpg);
-	background-size: contain;
-	background-position: center;
-	background-repeat: no-repeat;
-	height: 40vh;
-	color:white;
-	background-color: #c5e8ed;
+#fashions img {
+	height: 100%;
+	padding: 10px;
 }
 
-#baby {
-	background:url(../images/babysweater.JPG);
-	background-size: contain;
-	background-position: center;
-	background-repeat: no-repeat;
-	height: 40vh;
-	color:white;
-	background-color: #c5e8ed;
+#fashions img:hover {
+	opacity: 0.7;
 }
-#swim {
-	background:url(../images/HenrySwim.JPG);
-	background-size: contain;
-	background-position: center;
-	background-repeat: no-repeat;
-	height: 40vh;
-	color:white;
-	background-color: #c5e8ed;
-}
-#sleep {
-	background:url(../images/sleepsack.JPG);
-	background-size: contain;
-	background-position: center;
-	background-repeat: no-repeat;
-	height: 40vh;
-	color:white;
-	background-color: #c5e8ed;
-}
+
 #summer {
 	background-image: url(../images/HenryBeach.JPG);
 	background-size: contain;
