@@ -1,4 +1,4 @@
-* {margin:0;padding:0;box-sizing:border-box;}
+* {margin:0;padding:0; box-sizing: border-box;}
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Taviraj');
 
 body {
@@ -17,11 +17,17 @@ header {
 	}
 
 h1 {
-	padding:10px;
+	padding:160px 20px 20px 40px;
 	font-family: 'Taviraj', serif;
-	letter-spacing: 5px;
-	font-size: 40px;
+	letter-spacing: 2px;
+	font-size: 50px;
+	text-align: left;
+	font-variant: small-caps;
+}
 
+h1 p {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
 }
 
 h2	{ 
