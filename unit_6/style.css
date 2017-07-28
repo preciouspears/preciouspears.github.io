@@ -1,0 +1,172 @@
+* {margin:0;padding:0; box-sizing: border-box;}
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Taviraj');
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	color:#808080;
+}
+	
+header {
+		color: #5fbfcb;
+		width: 100%;
+		height: 100px;
+		/*background-color: #FFFFFF;*/
+		background-color: #FFED74;
+		top: 0;
+	}
+
+h1 {
+	padding:160px 20px 20px 40px;
+	font-family: 'Taviraj', serif;
+	letter-spacing: 2px;
+	font-size: 50px;
+	text-align: left;
+	font-variant: small-caps;
+}
+
+h1 p {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+}
+
+h2	{ 
+	color: #6495ED;
+	font-family: 'Taviraj', serif;
+}
+
+h3 {
+	font-family: 'Taviraj', serif;
+	font-size: 30px;
+	color: white;
+	background-color: #ccc;
+	width: 150px;
+	margin: 20px;
+}
+
+h3 a:hover {
+	opacity: 0.7;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+nav {
+	background-color: #E8C66A;
+}
+
+nav a:hover {
+	color: #5fcb6b;
+}
+nav a {
+	padding: 20px;
+}
+
+main {
+	line-height: 1.5;
+	text-align:center;
+}
+
+img {
+	width:15%;
+}
+
+footer {
+	line-height: 1.5;
+	padding:20px;
+	/*background-color: #e6e6e6;*/
+	background-color: #FF957E;
+}
+
+footer a {
+	color:#6495ED;
+	margin-right: 20px;
+}
+
+#cart {
+	word-spacing: 20px;	
+	text-align: right;
+	padding: 10px 20px 0 0;
+}
+
+#shipping {
+	color: #5fbfcb; 
+	font-variant: small-caps;
+	font-size: 18pt;
+	font-weight: lighter;
+	font-family: 'Taviraj', serif;
+	word-spacing: normal;
+	display: inline-block;
+	margin-left: 555px;	
+	}
+
+.header {
+	display: inline-block;
+	padding: 0 0 10px 0;
+} 
+
+#logo {
+	font-family: 'Taviraj', serif;
+	font-size: 40px;
+	text-align: left;
+	color: #5fbfcb;
+	font-weight: normal;
+	font-variant: small-caps;
+	padding-left: 10px;
+}
+
+#intro {
+	background:url(../images/henryplaying.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 140vh;
+	color:white;
+	background-color: #FFE2B8;
+	/* background-color: #FFE2B8;*/
+}
+
+#fashions h2 {
+	font-family: 'Taviraj', serif;
+	font-size: 40px;
+	font-weight: lighter;
+}
+
+#fashions img {
+	height: 100%;
+	padding: 10px;
+}
+
+#fashions img:hover {
+	opacity: 0.7;
+}
+
+#fashions {
+	background-color: #FFE2B8;
+}
+
+#summer {
+	background-image: url(../images/HenryBeach.JPG);
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 40vh;
+	background-position: center;
+	word-spacing: 5px;
+	background-color: #FFE2B8;
+}
+
+#gifts {
+	background-color: #FFE2B8;
+}
+
+#customers {
+	background-color: #FFE2B8;
+}
+
+#socialmedia {
+	background-color: #FFE2B8;
+}
+
+
