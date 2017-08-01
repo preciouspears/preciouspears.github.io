@@ -12,14 +12,27 @@ a {
 	text-decoration: none;
 }
 
+/*header code start*/
+
 header {
 		color: #5fbfcb;
-		width: 100%;
+		width: 100%
 	}
 
+#navigation {
+	word-spacing: 2em;
+	padding: 0 0 .5em .5em;
+	text-align: center;
+}
+
+#navigation a:hover {
+	color: #5fcb6b;
+}
+
 #cart {
-	word-spacing: 20px;	
+	word-spacing: 1em;	
 	float: right;
+	padding: .5em .5em 0 0;
 }
 
 #logo {
@@ -27,8 +40,29 @@ header {
 	font-size: 2em;
 	color: #5fbfcb;
 	font-variant: small-caps;
+	line-height: 68px;
+	overflow: auto;
 }
 
+#pear {
+	float: left;
+}
+
+#name {
+	float: left;
+}
+
+/* main code start*/
+
+main {
+	line-height: 1.5;
+	text-align:center;
+}
+/*
+img {
+	width:15%;
+}
+*/
 h1 {
 	font-family: 'Taviraj', serif;
 	letter-spacing: 2px;
@@ -62,25 +96,6 @@ h3 a:hover {
 	opacity: 0.7;
 }
 
-
-
-nav a:hover {
-	color: #5fcb6b;
-}
-
-nav a {
-	padding: 20px;
-}
-
-main {
-	line-height: 1.5;
-	text-align:center;
-}
-
-img {
-	width:15%;
-}
-
 footer {
 	line-height: 1.5;
 	padding:20px;
@@ -91,9 +106,6 @@ footer a {
 	color:#6495ED;
 	margin-right: 20px;
 }
-
-
-
 
 
 
