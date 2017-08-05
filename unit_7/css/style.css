@@ -12,12 +12,14 @@ a {
 	text-decoration: none;
 }
 
-/*header code start*/
-
 header {
 		color: #5fbfcb;
 		width: 100%
 	}
+
+header img {
+	width: 100%;
+}
 
 #navigation {
 	word-spacing: 2em;
@@ -58,22 +60,42 @@ main {
 	line-height: 1.5;
 	text-align:center;
 }
-/*
+
+
+
 img {
 	width:15%;
 }
-*/
+
+#intro {
+	background:url(../images/henryplaying.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+	height: 100vh;
+	margin: 0 1em 1em 1em;
+}
+
 h1 {
 	font-family: 'Taviraj', serif;
 	letter-spacing: 2px;
 	font-size: 2.5em;
-	font-variant: small-caps;
+	padding-top: 3.5em;
+	padding-right: 16em;
+	line-height: 1.25;
 }
 
-h1 p {
-	font-family: 'Montserrat', sans-serif;
-	font-size: 1em;
+h3 {
+	font-family: 'Taviraj', serif;
+	font-size: 1.5em;
+	color: white;
+	background-color: #5fbfcb;
+	width: 7em;
+	margin-left: 8em;
+	margin-top: 1em;
 }
+
 
 h2	{ 
 	color: #6495ED;
@@ -83,67 +105,26 @@ h2	{
 	font-weight: lighter;
 }
 
-h3 {
-	font-family: 'Taviraj', serif;
-	font-size: 30px;
-	color: white;
-	background-color: #ccc;
-	width: 150px;
-	margin: 20px;
-}
-
-h3 a:hover {
-	opacity: 0.7;
-}
-
-footer {
-	line-height: 1.5;
-	padding:20px;
-	background-color: #e6e6e6;
-}
-
-footer a {
-	color:#6495ED;
-	margin-right: 20px;
-}
-
-
-
-#intro {
-	background:url(../images/henryplaying.jpg);
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
-	height: 140vh;
-	color:white;
-	background-color: #FFE2B8;
-}
-
 #fashions h2 {
 	font-family: 'Taviraj', serif;
-	font-size: 40px;
+	font-size: 1.5em;
 	font-weight: lighter;
-}
-
-#fashions img {
-	height: 100%;
-	padding: 10px;
 }
 
 #fashions img:hover {
 	opacity: 0.7;
 }
 
-#summer {
-	background-image: url(../images/HenryBeach.JPG);
-	background-size: contain;
-	background-repeat: no-repeat;
-	height: 40vh;
-	background-position: center;
-	word-spacing: 5px;
-	background-color: #FFE2B8;
+#fashions img {
+	padding: 0 1em 0 1em;
 }
 
+#summer {
+	height: 60vh;
+	background-position: center;
+	word-spacing: 5px;
+	background-color: #e6e6e6;
+}
 
 #left {
     padding: 20px;
@@ -171,6 +152,17 @@ footer a {
     content: " ";
     clear: both;
     height: 0;
+}
+
+footer {
+	line-height: 1.5;
+	padding:20px;
+	background-color: #e6e6e6;
+}
+
+footer a {
+	color:#6495ED;
+	margin-right: 20px;
 }
 
 
